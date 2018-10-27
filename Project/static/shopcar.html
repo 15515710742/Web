@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/shopcar.css" type="text/css" />
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div id="header"></div>
+<div class="list1">
+	<table id="data" border="1">
+		<thead>
+			<tr>
+				<th><input type="checkbox"/>全选</th>
+				<th>商品</th>
+				<th>单价</th>
+				<th>数量</th>
+				<th>小计</th>
+				<th>操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input type="checkbox"/>勾选</td>
+				<td>
+					<a href="#"><img src="img/lk.jpg"/>兰蔻/奇迹香水套装</a>
+				</td>
+				<td>299.88</td>
+				<td>
+					<button>-</button>
+					<input type="text" value="1" />
+					<button>+</button>
+				</td>
+				<td>299.88</td>
+				<td><span>删除</span></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"/>勾选</td>
+				<td>
+					<a href="#"><img src="img/da.jpg"/>迪奥/喷式香水小样</a>
+				</td>
+				<td>88.50</td>
+				<td>
+					<button>-</button>
+					<input type="text" value="1" />
+					<button>+</button>
+				</td>
+				<td>88.50</td>
+				<td><span>删除</span></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"/>勾选</td>
+				<td>
+					<a href="#"><img src="img/fsz.jpg"/>范思哲/淡香型香水</a>
+				</td>
+				<td>28.50</td>
+				<td>
+					<button>-</button>
+					<input type="text" value="1" />
+					<button>+</button>
+				</td>
+				<td>28.50</td>
+				<td><span>删除</span></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"/>勾选</td>
+				<td>
+					<a href="#"><img src="img/xne.jpg"/>香奈儿/淡香型香水</a>
+				</td>
+				<td>540.60</td>
+				<td>
+					<button>-</button>
+					<input type="text" value="1" />
+					<button>+</button>
+				</td>
+				<td>540.60</td>
+				<td><span>删除</span></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="5">
+					<input type="checkbox"/>全选
+					<span id="totDel">删除全部</span>
+					<div class="total">合计:￥<span id="priceTotal">957.48</span></div>
+					<div>已选商品
+						<span id="count">4</span>件
+					</div>
+				</td>
+				<td><a href="login.html">结算</a></td>
+			</tr>
+		</tfoot>
+	</table>
+</div>	 
+<div id="footer"></div>       
+</body>
+<script src="js/base.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/shopcar.js"></script>
+</html>	

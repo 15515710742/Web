@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.list1{
+	width: 100%;
+	padding-bottom:20px;
+	background-color: #F2F2F2;
+}
+.list1	table{
+	width:1200px;
+	border:2px solid #BF9B5F;
+	text-align: center;
+	border-collapse: collapse;
+	margin: 0 auto;
+	color: #6C6C6C;
+	font-family: 黑体;
+}
+.list1 table thead tr th{
+	height: 40px;
+	width:200px;
+	background-color: #EC3E7D;
+	color: #FFFFFF;
+	font-family: 黑体;
+}
+.list1 table thead tr th:nth-child(2){
+	width:350px;
+}
+.list1 table tbody tr td{
+	height:120px;
+}
+
+.list1 table tbody tr td a img{
+	width:100px;
+	height:80px;
+	vertical-align: middle;
+}
+.list1 table tbody tr td span{
+	cursor: pointer;
+	color: #EC3E7D;
+	font-family:黑体 ;
+}
+.list1 table tbody tr td span:hover{
+	color: red;
+}
+.list1 table tbody tr td:nth-child(4) button:nth-child(2n+1){
+	width:40px;
+	height:40px;
+	font-size:18px;
+	outline: none;
+	border: none;
+	color: #FFFFFF;
+}
+.list1 table tbody tr td:nth-child(4) input:nth-child(2){
+	width:60px;
+	height:40px;
+	outline: none;
+	color: red;
+	font-weight: bolder;
+	text-align: center;
+}
+.list1 table tfoot tr td{
+	text-align: left;
+	height: 50px;
+	padding-left: 20px;
+	border-color: #C8C8C8;
+	color: #FFFFFF;
+	font-family: 黑体;
+	background-color: #EC3E7D;
+}
+.list1 table tfoot tr td #totDel{
+	cursor: pointer;
+	margin-left:10px;
+	color:#fff;
+}
+.list1 table tfoot tr td a{
+	text-decoration: none;
+	color: red;
+	font-size: 26px;
+}
+.list1 table tfoot tr td:last-child{
+	text-align: center;
+	width: 150px;
+	padding-left: 0;
+	background-color: #BF9B5F;
+	color: red;
+	font-size: 26px;
+	font-weight: bolder;
+}
+.list1 table tfoot tr div{
+	float: right;
+	margin-right: 20px;
+}
+.list1 table tfoot tr div #priceTotal{
+	display:inline-block;
+	width:80px;
+	margin-left:10px;
+	text-align: center;
+	color:#000000;
+	font-size: 26px;
+	font-family: 黑体;
+}
+.list1 table tfoot tr div #count{
+	text-align: center;
+	color:#000000;
+	font-size: 26px;
+	font-family: 黑体;
+}
+
+	

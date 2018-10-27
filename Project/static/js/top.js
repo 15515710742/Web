@@ -1,0 +1,22 @@
+$(function(){
+    $(`<link rel="stylesheet" href="css/top.css">`).appendTo("head");
+    $.ajax({
+        url:"top.html",
+        type:"get",
+        success:function(res){
+            $(res).replaceAll(".top");           
+            $(".weibo").hide();
+            $(".weixin").hide();
+            $("#sina").mouseover(function(){
+                $(".weibo").show();
+            }).mouseout(function(){
+                $(".weibo").hide();
+            });
+            $("#weChat").mouseover(function(){
+                $(".weixin").show();
+            }).mouseout(function(){
+                $(".weixin").hide();
+            });
+        }
+    })
+});
