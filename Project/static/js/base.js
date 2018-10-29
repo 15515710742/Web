@@ -27,7 +27,8 @@ $(function(){
                 $(".lis5 li:first").siblings().hide();
             })
 	        /*左侧边栏回到顶部*/
-            $('#toTop').click(function(){
+            $('#toTop').click(function(e){
+                e.preventDefault();
                 $('html,body').animate({scrollTop:0},'slow');//慢慢回到页面顶部
             });
             $(window).scroll(function(){

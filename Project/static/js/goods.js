@@ -38,13 +38,11 @@ window.addEventListener("load",function(){
 var btn = document.getElementById("btn2");
 var show = document.getElementById("showm");
 btn.onmouseover=function(){
-			show.style.display="block";
-		}
-		btn.onmouseout=function(){
-		show.style.display="none"
-		}
-	
-
+	show.style.display="block";
+}
+btn.onmouseout=function(){
+show.style.display="none"
+}	
 $(function() {
 	$("#cbtn").click(function(event){
 	    var flyer=$("#fly")

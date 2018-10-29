@@ -154,36 +154,7 @@ ul{
 .container .conter{
 	width:1185px;
 	margin: 0 auto;
-	/*position: relative;*/
 }
-.elevator{
-	list-style: none;
-	position:fixed;
-	left:0;
-	bottom:150px;
-}
-.elevator li{
-	width:60px;
-	height: 60px;
-	line-height: 50px;
-	text-align: center;
-	background-color:#fff;
-}
-.elevator li p{
-	font-size: 14px;
-	color: #6C6C6C;
-	font-family: 黑体;
-}
-.elevator li.now{
-	background-color:#EC3E7D;
-	
-}
-.elevator li.now p{
-	font-family: 黑体;
-	font-size: 14px;
-	color:#fff;
-} 
-
 .container .step1{
 	height: 1485px;
 	width: 1185px;
@@ -208,7 +179,6 @@ ul{
 	display: flex;
 	justify-content:space-between;
 	flex-wrap: wrap;
-
 }
 .container .step1 ul li{
 	margin-top:20px; 
@@ -216,8 +186,7 @@ ul{
 .container .step1 .pic{
 	width: 580px;
 	height: 260px;
-	float: left;
-	
+	float: left;	
 }
 .container .step1 .pic>a{
 	display: inline-block;
@@ -225,7 +194,7 @@ ul{
 }
 .container .step1 .pic>a:hover>img{
 	transform: scale(1.1);
-	transition: all 1s ease;	
+	transition: all 1s ease;			
 }
 .container .step1 .pic img{
 	width: 360px;
@@ -620,6 +589,7 @@ ul{
 .container .step4 #box .box1-1:hover{
 	transform: scale(1.1);
 }
+
 .elevator{
 	position:fixed;
 	left:0;
@@ -628,6 +598,7 @@ ul{
 .elevator li{
 	width:80px;
 	height:80px;
+	background-color:#fff;
 }
 .elevator li a{
 	display: block;

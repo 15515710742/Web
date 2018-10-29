@@ -105,40 +105,53 @@ $(function(){
 	setInterval(move,3000);
 
 	/*右侧边栏*/
-	$('#step1').click(function(){
-		$('html,body').animate({scrollTop:730},'slow');
+	$('#step1').click(function(e){
+		e.preventDefault();
+		var t1 = $(".wz").offset().top;
+		$('html,body').animate({scrollTop:t1},'slow');
 	});
-	$('#step2').click(function(){
-		$('html,body').animate({scrollTop:2200},'slow');
+	$('#step2').click(function(e){
+		e.preventDefault();
+		var t2 = $(".wz1").offset().top;
+		$('html,body').animate({scrollTop:t2},'slow');
 	});
-	$('#step3').click(function(){
-		$('html,body').animate({scrollTop:3910},'slow');
+	$('#step3').click(function(e){
+		e.preventDefault();
+		var t3 = $(".wz2").offset().top;
+		$('html,body').animate({scrollTop:t3},'slow');
 	});
-	$('#step4').click(function(){
-		$('html,body').animate({scrollTop:4600},'slow');
+	$('#step4').click(function(e){
+		e.preventDefault();
+		var t4 = $(".wz3").offset().top;
+		$('html,body').animate({scrollTop:t4},'slow');
 	});
-	$('.toTop').click(function(){
+	$('.toTop').click(function(e){
+		e.preventDefault();
 		$('html,body').animate({scrollTop:0},'slow');
 	});
-	//点击按钮滚动到指定楼层
+	//滚动到指定楼层
 	$(window).scroll(function(){
 		var height=$(window).scrollTop();
-		if(height>600 && height<2200){
+		var t1 = $(".wz").offset().top;
+		var t2 = $(".wz1").offset().top;
+		var t3 = $(".wz2").offset().top;
+		var t4 = $(".wz3").offset().top;
+		if(height>t1 && height<t2){
 			$('#step1').addClass("active");
 		}else{
 			$('#step1').removeClass("active");
 		}
-		if(height>2200 && height<3900){
+		if(height>t2 && height<t3){
 			$('#step2').addClass("active");
 		}else{
 			$('#step2').removeClass("active");
 		}
-		if(height>3900 && height<4600){
+		if(height>t3 && height<t4){
 			$('#step3').addClass("active");
 		}else{
 			$('#step3').removeClass("active");
 		}
-		if(height>4600){
+		if(height>t4){
 			$('#step4').addClass("active");
 		}else{
 			$('#step4').removeClass("active");

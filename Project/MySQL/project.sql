@@ -59,6 +59,10 @@ INSERT INTO s_details VALUES(null,749.0,1060.0,'7.1折','img/b333-4.jpg,img/b333
 INSERT INTO s_details VALUES(null,60.0,98.0,'6.1折','img/b333-3.jpg,img/b333-3.jpg,img/b333-3.jpg','img/box_lis2-1.jpg,img/box_lis2-2.jpg,img/box_lis2-3.jpg','安娜苏','梦飞型迷你淡<span>香水</span>小样','4毫升');
 INSERT INTO s_details VALUES(null,749.0,1060.0,'7.1折','img/b333-4.jpg,img/b333-4.jpg,img/b333-4.jpg','img/box_lis2-1.jpg,img/box_lis2-2.jpg,img/box_lis2-3.jpg','香奈儿','5号喷式<span>香水</span>小样','50毫升');
 
+INSERT INTO s_details VALUES(null,49.0,108.0,'4.5折','img/box_lis1.jpg,img/box_lis2-2.jpg,img/box_lis2-3.jpg','img/box_lis2-1.jpg,img/box_lis2-2.jpg,img/box_lis2-3.jpg','BURBERRY','BRIT SHEER  红粉恋歌淡<span>香水</span>','4.5毫升');
+INSERT INTO s_details VALUES(null,129.0,510.0,'2.5折','img/box_lis21.jpg,img/box_lis22.jpg,img/box_lis23.jpg','img/box_lis2-1.jpg,img/box_lis2-2.jpg,img/box_lis2-3.jpg','CalVin Klein','BE  卡来比中性淡<span>香水</span>','100毫升');
+INSERT INTO s_details VALUES(null,60.0,98.0,'6.1折','img/b333-3.jpg,img/b333-3.jpg,img/b333-3.jpg','img/box_lis2-1.jpg,img/box_lis2-2.jpg,img/box_lis2-3.jpg','安娜苏','梦飞型迷你淡<span>香水</span>小样','4毫升');
+INSERT INTO s_details VALUES(null,749.0,1060.0,'7.1折','img/b333-4.jpg,img/b333-4.jpg,img/b333-4.jpg','img/box_lis2-1.jpg,img/box_lis2-2.jpg,img/box_lis2-3.jpg','香奈儿','5号喷式<span>香水</span>小样','50毫升');
 
 
 
