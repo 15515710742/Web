@@ -6,14 +6,17 @@ const pool=require("../pool.js");
 const router=express.Router();
 //创建路由
 router.get("/",(req,res)=>{
-    var sql = `SELECT * FROM s_details`;
+    var sql = `SELECT * FROM s_product`;
     pool.query(sql,(err,result)=>{
         if(err) throw err;
-        var data = {}
-        data.pno = req.query.pno;
-        data.pageCount = Math.ceil(result.length/12);
-        data.res=result.slice(data.pno*12,data.pno*12+12);
-        res.send(data);
+        res.send(result);
+    });
+});
+router.get("/list",(req,res)=>{
+    var sql = `SELECT * FROM s_info`;
+    pool.query(sql,(err,result)=>{
+        if(err) throw err;
+        res.send(result);
     });
 });
 

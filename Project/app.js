@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 //引入details路由
  const details = require('./routes/details.js');
 //引入index路由
-// const index=require("./routes/index.js");
+const index=require("./routes/index.js");
 //使用express创建web服务器
 //监听端口为4000
 var app = express();
@@ -22,6 +22,6 @@ app.use(bodyParser.urlencoded({
 //将路由挂载到details下
 app.use('/details',details);
 //将路由挂载到index下
-// app.use("/index",index);
+app.use("/index",index);
 
 

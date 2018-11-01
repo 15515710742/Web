@@ -56,7 +56,7 @@ $(function() {
 			},
 			end: {
 				left:1900,
-				top:160,
+				top:200,
 				width: 0,
 				height: 0
 			}
@@ -104,4 +104,14 @@ $(function() {
 		
 	})	
 })
+
+
+
+
+
+
+
+
+
+
 	

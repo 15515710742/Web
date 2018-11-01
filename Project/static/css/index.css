@@ -156,12 +156,13 @@ ul{
 	margin: 0 auto;
 }
 .container .step1{
-	height: 1485px;
+	/* height: 1485px; */
 	width: 1185px;
 	margin: 0 auto;
 	border-bottom: 1px solid #E4E4E4;
 	position: relative;
 	padding-top:25px;
+	padding-bottom:50px;
 }
 .container .step1 .wz{
 	width: 300px;
@@ -233,6 +234,7 @@ ul{
 	padding-top: 4px;
 }
 .container .step1 .title .btn{
+	display: block;
 	width: 108px;
 	height: 33px;
 	background-color: #EC3E7D;
@@ -243,19 +245,21 @@ ul{
 	bottom: 50px;
 	color: #fff;
 	font-weight: bold;
+	text-decoration: none;
 }
-.container .step1 .title .btn:hover{
-	cursor: pointer;
+.container .step1 .title .btn:hover{	
 	background-color: rgb(185, 15, 77);
 }
 /*二楼*/
 .container .step2{
-	height: 1630px;
 	width: 1185px;
 	margin: 0 auto;
 	border-bottom: 1px solid #E4E4E4;
 	position: relative;
 	margin-top:70px;
+}
+.container .step2 ul{
+	margin-bottom:120px;
 }
 .container .step2 ul li{
 	margin-top:20px;
